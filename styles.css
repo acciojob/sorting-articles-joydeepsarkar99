@@ -1,12 +1,22 @@
 /*  your css code here. If applicable */
-section{
-	display:flex;
-	justify-content:center
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
 }
-ul{
-	width:200px;
-	border:1px solid black;
+body{
+	background:url("https://images.unsplash.com/photo-1426604966848-d7adac402bff?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
-ul>li{
-	margin:5px 0px;
+#container{
+	display: flex;
+	justify-content: center;
 }
+#band{
+	background-color: white;
+}
+#band>li{
+	list-style: square;
+	margin: 20px 30px;
+}
+
