@@ -12,10 +12,10 @@ body{
 	display: flex;
 	justify-content: center;
 }
-#band{
+#bands{
 	background-color: white;
 }
-#band>li{
+#bands>li{
 	list-style: square;
 	margin: 20px 30px;
 }
